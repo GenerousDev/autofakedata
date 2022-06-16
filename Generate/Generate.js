@@ -232,7 +232,7 @@
          let prefixOptions = prefix[0][selected]
          let selectedPrefix = prefixOptions[Math.floor(Math.random() * prefixOptions.length)]
          const number = Math.floor(1000000 + Math.random() * 9000000)
-         selectedPrefix = selectedPrefix.replace(/^0+/, '+234')		
+         selectedPrefix = selectedPrefix.replace(/^0+/, '234')		
          return `${selectedPrefix}${number}`
      }
  
